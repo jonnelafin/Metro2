@@ -1,9 +1,14 @@
+plugins {
+    id 'maven-publish'
+}
 apply plugin: 'java'
 apply plugin: 'jacoco'
 apply plugin: 'application'
 
 
 mainClassName = 'metro.Demo'
+
+
 
 repositories {
     jcenter()
@@ -28,3 +33,8 @@ sourceSets {
         }
     }
 }
+
+
+
+
+
