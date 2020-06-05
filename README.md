@@ -1,4 +1,4 @@
-# MetroMaven
+# Metro
 Metro is a simple semi-encrypted notekeeping app written in java.
 
 ![Gradle Package](https://github.com/jonnelafin/MetroMaven/workflows/Gradle%20Package/badge.svg)
