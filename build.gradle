@@ -2,7 +2,7 @@ plugins {
     id 'maven-publish'
 }
 apply plugin: 'java'
-apply plugin: 'jacoco'
+//apply plugin: 'jacoco'
 apply plugin: 'application'
 
 
@@ -11,11 +11,11 @@ mainClassName = 'metro.Demo'
 
 
 repositories {
-    jcenter()
+//    jcenter()
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
+//    testCompile 'junit:junit:4.12'
 }
 
 jar {
@@ -26,13 +26,13 @@ jar {
     )
   }
 }
-sourceSets {
-    main {
-        resources {
-            srcDirs "src/main/java/metro/icons", "src/main/java/metro"
-        }
-    }
-}
+//sourceSets {
+//    main {
+//        resources {
+//            srcDirs "src/main/java/metro/icons", "src/main/java/metro"
+//        }
+//    }
+//}
 
 
 
