@@ -34,7 +34,7 @@ Deleting the users.ser file restores the user above. (deletes all data and users
 
 # Screenshots
 ![Login](login.png)
-# Files
+# The Files The Program Uses and Creates
 The program creates 2 files upon the user saving their notes or making changes to usermanagement:
 
 users.ser . . . . . . . . . remembers all users and their password hashes
