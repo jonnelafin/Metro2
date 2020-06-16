@@ -8,9 +8,6 @@ package metro;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.util.Arrays;
-import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
 
 /**
  *

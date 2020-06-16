@@ -12,14 +12,10 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.HashMap;
-import java.util.Base64;
-import java.util.LinkedList;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 /**
  *
- * @author Elias Eskelinen <elias.eskelinen@protonmail.com>
+ * @author Elias Eskelinen (elias.eskelinen@protonmail.com)
  */
 public class LoginCheck {
     private static HashMap<String, String> users = new HashMap<>();

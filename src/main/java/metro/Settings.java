@@ -8,16 +8,9 @@ package metro;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.util.Arrays;
 import java.util.Objects;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.SwingUtilities;
 
 /**
  *
@@ -35,6 +28,7 @@ public class Settings extends javax.swing.JFrame {
     
     protected void returnState(String user, String pass, String newuser, String newpass, boolean add){
         if (add) {
+            user = user.toLowerCase();
             System.out.println("Current user: " + user);
             System.out.println("New user: " + newuser);
             LoginCheck.addUser(user, pass, newuser, newpass);
