@@ -290,7 +290,7 @@ public class Login extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         //System.out.println("Can't continue");
-        String name = jTextField1.getText();
+        String name = jTextField1.getText().toLowerCase();
         String pass = String.copyValueOf(jPasswordField1.getPassword());
         //System.out.println("Username: " + name);
         //System.out.println("Password: " + pass);
