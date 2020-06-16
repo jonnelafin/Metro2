@@ -28,11 +28,6 @@ public class LoginCheck {
     static{
         users.put("Admin".toLowerCase(), salt("Admin".toLowerCase(), "Hunter2"));
         readChanges("admin", "Hunter2");
-        //users.put("elias", "7613055"); //1802619435
-        
-        //String en = "劭撛抝熎撛玌犍";    //encrypt("Secrets", "7613055");
-        //data.put("1802619435", en);
-        //data.put(key, value);
         //writeData("Admin", "Hunter2", "Hello World!", false);
         //data.put("Hunter2".hashCode() + "", "Hello World!");
     }
